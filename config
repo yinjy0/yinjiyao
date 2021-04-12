@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://leejerry233@gmail.com:pogke8fohdakduRbat@github.com/yinjy0/yinjy0.github.io.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
