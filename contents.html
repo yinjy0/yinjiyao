@@ -4,55 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>目录</title>
+    <title>网盘</title>
     <meta name="keywords" content="机械,打工人,尹冀尧">
     <meta name="description" content="尹冀尧的个人博客">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.ico">
-    <style type="text/css">
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        img {
-            display: block;
-            border: 0;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-family: 微软雅黑;
-        }
-
-        li a:hover {
-            background-color: #111;
-        }
-
-        .active {
-            background-color: #0099ff;
-        }
-    </style>
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
@@ -60,7 +17,7 @@
     <div id="main-content">
         <ul>
             <li><a href="index.html">首页</a></li>
-            <li class="active"><a href="contents.html">目录</a></li>
+            <li class="active"><a href="contents.html">网盘</a></li>
             <li><a href="games/FruitNinja/水果忍者.html">游戏</a></li>
             <li><a href="games/FruitNinja/水果忍者.html">联系我</a></li>
             <li style="float: right;"><a href="https://github.com/yinjy0/yinjy0.github.io" target="_blank"
@@ -68,9 +25,15 @@
         </ul>
         <br>
         <br>
-        <p><a href="pdf/待汇报.pdf">待汇报</a></p>
-        <p></p><a href="pdf/3.29汇报.pdf">3.29汇报</a></p>
-        <p></p><a href="pdf/软件学习ppt.pdf">软件学习</a></p>
+        <div class="pdf">
+            <p><a href="pdf/待汇报.pdf">待汇报</a></p>
+            <p><a href="pdf/3.29汇报.pdf">3.29汇报</a></p>
+            <p><a href="pdf/软件学习ppt.pdf">软件学习</a></p>
+        </div>
+    </div>
+    <div class="last">
+        <p>Copyright © 2021 yinjy.top.All Rights Reserved.</p>
+        <p>尹冀尧 版权所有</p>
     </div>
 </body>
 
