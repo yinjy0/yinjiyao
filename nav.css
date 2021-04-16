@@ -40,15 +40,21 @@ li a:hover {
 .active {
     background-color: #0099ff;
 }
-
+.box{
+    text-align: center;
+    /* width: 90%; */
+}
 h1 {
     color: aliceblue;
-    margin-left: 10%;
-    margin-top: 20%;
+    /* margin-left: 20%;
+    margin-top: 15%; */
+    margin: 15%;
+    padding: 70px 0;
      text-shadow: rgb(0, 0, 0) 4px 4px 5px;
      font-style: italic;
-     width: 80%;
      font-size: xxx-large;
+     font-family: Arial;
+     /* background-color: #0099ff; */
 }
 .bgimg{
     position: fixed;
@@ -59,12 +65,10 @@ h1 {
     min-width: 1000px;
     z-index:-10;
     zoom:1;
-    background-color: #fff;
-    background: url(https://z3.ax1x.com/2021/04/15/c2DcND.jpg) no-repeat;
+    background:url(https://z3.ax1x.com/2021/04/15/c2DcND.jpg) no-repeat center center;
     background-size: cover;
     -webkit-background-size:cover;
     -o-background-size:cover;
-    background-position: center 0;
 }
 div.last{
 width: 100%;
@@ -77,5 +81,5 @@ font-family: Arial;
 font-size: small;
 color:white;
 line-height: 8px;
-text-shadow: rgb(0, 0, 0) 1px 1px 3px;
+/* text-shadow: rgb(0, 0, 0) 1px 1px 3px; */
 }
