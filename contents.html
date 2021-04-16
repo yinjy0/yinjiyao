@@ -11,52 +11,57 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="nav.css">
     <style type="text/css">
-        .pdf a {
-            color: black;
-            text-decoration: none;
+        .content {
+            margin: 69.25px 20px;
+        }
+
+        .pdf {
+            border: 2px solid rgb(187, 187, 187);
+            border-top: 10px solid rgba(0, 132, 255, 0.952);
+            display: inline-block;
+            width: 200px;
         }
 
         .pdf a:hover {
-            color: blue;
-            text-decoration: underline;
+            background-color: rgb(161, 161, 161);
         }
 
         .pdf a {
+            color: black;
+            text-decoration: none;
             display: block;
             height: 30px;
             width: 80px;
+            line-height: 30px;
             text-align: center;
-            margin-bottom: 10px;
-            margin-left: 20px;
-            background-color: rgb(161, 161, 161);
+            margin: 15px;
+
         }
     </style>
 </head>
 
 <body>
-
-    <div id="main-content">
-        <ul>
-            <li><a href="index.html">首页</a></li>
-            <li class="active"><a href="contents.html">网盘</a></li>
-            <li><a href="games/FruitNinja/水果忍者.html">游戏</a></li>
-            <li><a href="#">联系我</a></li>
-            <li style="float: right;"><a href="https://github.com/yinjy0/yinjy0.github.io" target="_blank"
-                    class="last">About</a></li>
-        </ul>
-        <br>
-        <br>
-        <br>
-        <div class="pdf">
-            <a href="pdf/待汇报.pdf">待汇报</a>
-            <a href="pdf/3.29汇报.pdf">3.29汇报</a>
-            <a href="pdf/软件学习ppt.pdf">软件学习</a>
+    <div class="content">
+        <div id="main-content">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li class="active"><a href="contents.html">网盘</a></li>
+                <li><a href="games/FruitNinja/水果忍者.html">游戏</a></li>
+                <li><a href="#">联系我</a></li>
+                <li style="float: right;"><a href="https://github.com/yinjy0/yinjy0.github.io" target="_blank"
+                        class="last">About</a></li>
+            </ul>
+            <div class="pdf">
+                <a href="pdf/待汇报.pdf">待汇报</a>
+                <a href="pdf/3.29汇报.pdf">3.29汇报</a>
+                <a href="pdf/软件学习ppt.pdf">软件学习</a>
+            </div>
         </div>
-    </div>
-    <div class="last" style="color: black;"">
+        <div class="last" style="color: black;"">
         <p>Copyright © 2021 yinjy.top.All Rights Reserved.</p>
         <p>尹冀尧 版权所有</p>
     </div>
+</div>
 </body>
 
 </html>
