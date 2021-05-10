@@ -9,13 +9,14 @@
 }
 
 .box1 {
-    display:inline-block;
-    margin: 20px 0px 20px 20px;
+    /* display:inline-block; */
+    margin: 20px 0 0 20px;
     border: 1px solid #D9E0EE;
     border-top: 3px solid #F4394D;
     height: 166px;
     width: 200px;  
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    float: left;
 }
 
 .title {
@@ -38,6 +39,7 @@
 }
 ul img{
     height:13px;
-    width: 13px;
-    top: 2px;
+    /* width: 13px; */
+    /* top: 2px; */
+    vertical-align: inherit;
 }
